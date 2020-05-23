@@ -1,0 +1,49 @@
+html, body
+{
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(270deg, #000 0%, #222 100%);
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.present
+{
+    color: #ddd !important;
+    background-color: transparent !important;
+}
+
+.welcome
+{
+    text-align: center;
+}
+
+.maincard-title
+{
+    font-size: 2rem;
+}
+
+.ident
+{
+    position: relative; 
+    padding-left: 5px;
+    text-align: justify;
+}
+
+.divider
+{
+    background-color: #333;
+    width: 50%;
+    height: 1px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
